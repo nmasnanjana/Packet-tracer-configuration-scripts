@@ -1,0 +1,6 @@
+en
+conf t
+vtp domain flackbox
+vtp mode client
+ex
+
