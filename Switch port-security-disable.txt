@@ -1,0 +1,11 @@
+en
+conf t
+interface fastEthernet 0/1
+no switchport port-security
+no switchport port-security mac-address sticky
+no switchport port-security violation shutdown
+ex
+ex
+wr
+
+

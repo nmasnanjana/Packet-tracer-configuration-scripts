@@ -1,0 +1,9 @@
+en
+conf t
+interface fastEthernet 0/1
+switchport mode access
+ex
+ex
+wr
+
+

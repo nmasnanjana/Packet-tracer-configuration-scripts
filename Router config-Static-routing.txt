@@ -1,0 +1,7 @@
+en
+conf t
+ip route 192.168.10.0 255.255.255.0 192.168.1.2
+ex
+ex
+
+ip route "Destination network" "Subnet mask" "Next Hop address" 

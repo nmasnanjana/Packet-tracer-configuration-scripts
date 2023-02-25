@@ -1,0 +1,15 @@
+en
+conf t
+interface gigabitEthernet 0/0/0.1
+encapsulation dot1Q 1
+description HR
+ip address 192.168.1.1 255.255.255.0
+no sh
+ex
+interface gigabitEthernet 0/0/0.2
+encapsulation dot1Q 2
+description IT
+ip address 192.168.2.1 255.255.255.0
+no sh
+ex
+

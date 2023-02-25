@@ -1,0 +1,9 @@
+en
+conf t
+vlan 10
+name Sails
+ex
+ex
+sh vlan
+
+

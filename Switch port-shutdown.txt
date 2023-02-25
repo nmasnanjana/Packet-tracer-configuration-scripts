@@ -1,0 +1,9 @@
+en
+conf t
+do sh int sta
+interface fastEthernet 0/1
+sh
+ex
+ex
+wr
+sh int sta

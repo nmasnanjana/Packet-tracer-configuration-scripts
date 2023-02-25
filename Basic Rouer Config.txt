@@ -1,0 +1,23 @@
+en
+conf t
+no ip domain lookup
+hostname R1
+interface serial 0/1/1
+ip address 172.16.10.14 255.255.255.252
+no sh
+ex
+interface serial 0/2/0
+ip address 172.16.10.2 255.255.255.252
+no sh
+ex
+interface serial 0/1/0
+ip address 172.16.10.10 255.255.255.252
+no sh
+ex
+interface serial 0/2/1
+ip address 172.16.10.6 255.255.255.252
+no sh
+ex
+ex
+wr
+

@@ -1,0 +1,10 @@
+en
+conf t
+interface fastEthernet 0/1
+switchport access vlan 10
+ex
+ex
+sh vlan
+
+
+
